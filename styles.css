@@ -278,6 +278,7 @@ a:active {
 .announcement .announcement-description {
     color: rgb(110, 110, 110);
     font-size: 0.7rem;   
+    line-clamp: none;
     display: -webkit-box;      
     -webkit-line-clamp: 3;        
     -webkit-box-orient: vertical;  
