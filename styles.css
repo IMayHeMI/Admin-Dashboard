@@ -197,7 +197,7 @@ a:active {
 .main-content {
     grid-area: main;
     display: grid;
-    grid-template-columns: 1fr 250px;
+    grid-template-columns: 1fr 300px;
     grid-template-rows: 20px 1fr;
     gap: 20px;
     background-color: var(--secondary-color);
@@ -211,10 +211,9 @@ a:active {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 350px);
-    grid-template-rows: repeat(auto-fill, 200px);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
     gap: 30px;
-    overflow-y: auto;
 }
 
 .projects .content-card {
@@ -225,7 +224,6 @@ a:active {
     border-radius: 10px;
     border-left: 7px solid rgb(255, 187, 60);
     box-shadow: 0px 2px 5px var(--shadow);
-    overflow-y: auto;
 }
 
 .content-card .project-name {
@@ -250,7 +248,7 @@ a:active {
 .announcements {
     display: grid;
     grid-template-rows: 0.2fr 20px auto;
-    gap: 20px;
+    gap: 25px;
 }
 
 .announcements .announcements-container {
@@ -260,7 +258,6 @@ a:active {
     background-color: white;
     padding: 1.5em 1em;
     border-radius: 10px;
-    height: 320px;
     box-shadow: 0px 2px 5px var(--shadow);
 }
 
