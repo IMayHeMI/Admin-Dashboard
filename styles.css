@@ -74,7 +74,7 @@ a {
 }
 
 a:hover {
-    color: lightgray;
+    color: rgb(172, 172, 172);
 }
 
 a:active {
@@ -226,6 +226,14 @@ a:active {
     box-shadow: 0px 2px 5px var(--shadow);
 }
 
+.projects .content-card .icon {
+    color: black;
+}
+
+.projects .content-card .project-button:hover {
+    color: purple;
+}
+
 .content-card .project-name {
     font-weight: bold;
     margin-bottom: 6px;
@@ -243,6 +251,11 @@ a:active {
     margin-top: auto;
     align-self: flex-end;
     gap: 20px;
+}
+
+.warning {
+    color: black;
+    font-size: 0.8rem;
 }
 
 .announcements {
